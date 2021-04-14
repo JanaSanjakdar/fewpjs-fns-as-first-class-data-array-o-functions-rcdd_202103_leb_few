@@ -26,7 +26,7 @@ function walkToPark(Bunny, Labrador) {
   console.log("Walk to the park with ${dogName} the ${dogBreed}");
   return "Walk to the park with ${dogName} the ${dogBreed}";
 }
-function throwFrisbee(dogName, dogBreed) {
+function throwFrisbee(Mary J. Blige, Papillon) {
   console.log("Throw the frisbee for ${dogName} the ${dogBreed}");
   return "Throw the frisbee for ${dogName} the ${dogBreed}";
 }
