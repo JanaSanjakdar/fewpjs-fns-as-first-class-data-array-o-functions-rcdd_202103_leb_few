@@ -30,7 +30,7 @@ function throwFrisbee(Mary J. Blige, Papillon) {
   console.log("Throw the frisbee for ${dogName} the ${dogBreed}");
   return "Throw the frisbee for ${dogName} the ${dogBreed}";
 }
-function Unleash(dogName, dogBreed) {
+function Unleash(Byron, poodle) {
   console.log("Unleash ${dogName} the ${dogBreed}");
   return "Unleash ${dogName} the ${dogBreed}";
 }
