@@ -44,6 +44,6 @@ return routine[i];
   }
   console.log(exersiceDog(Bryan, poodle))
 }*/
-function exerciseDog = function(dogName, dogBreed) {
+const exerciseDog = function(dogName, dogBreed) {
   return routine.map(action => action(dogName, dogBreed));
 }
