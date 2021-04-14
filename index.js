@@ -31,9 +31,9 @@ function Unleash(dogName, dogBreed) {
 }
 
 let routine =[wakeDog(),leashDog(),walkToPark(),throwFrisbee(),walkHome(),unleashDog()]
-function exersiceDog (dogName,dogBreed){
-  let dogName="Byron";
-  let dogBreed="poodle";
+function exersiceDog (Byron,poodle){
+  //let dogName="Byron";
+  //let dogBreed="poodle";
   for (let i=0; i<length.routine;i++){
 return routine[i];
   }
