@@ -18,11 +18,11 @@ function wakeDog(Xerox, Border Collie) {
   console.log("Wake ${dogName} the ${dogBreed}");
   return "Wake ${dogName} the ${dogBreed}";
 }
-function leashDog(dogName, dogBreed) {
+function leashDog(Boo Radley,Piddle) {
   console.log("Leash ${dogName} the ${dogBreed}");
   return "Leash ${dogName} the ${dogBreed}";
 }
-function walkToPark(dogName, dogBreed) {
+function walkToPark(Bunny, Labrador) {
   console.log("Walk to the park with ${dogName} the ${dogBreed}");
   return "Walk to the park with ${dogName} the ${dogBreed}";
 }
