@@ -1,4 +1,4 @@
-function wakeDog() {
+/*function wakeDog() {
   console.log("Wake Byron the poodle");
 }
 function leashDog() {
@@ -12,7 +12,7 @@ function throwFrisbee() {
 }
 function Unleash() {
   console.log("Unleash Byron the poodle");
-}
+}*/
 
 function wakeDog(dogName, dogBreed) {
   console.log("Wake ${dogName} the ${dogBreed}");
