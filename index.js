@@ -13,4 +13,3 @@ function throwFrisbee() {
 function Unleash() {
   console.log("Unleash Byron the poodle");
 }
-
