@@ -7,3 +7,6 @@ function leashDog() {
 function walkToPark() {
   console.log("Walk to the park with Byron the poodle");
 }
+function throwFrisbee() {
+  console.log("Throw thr frisbee for Byron the poodle");
+}
