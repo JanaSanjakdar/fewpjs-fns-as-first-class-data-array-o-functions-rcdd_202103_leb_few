@@ -39,8 +39,11 @@ const routine =[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
 function exersiceDog (dogName,dogBreed){
   //let dogName="Byron";
   //let dogBreed="poodle";
-  for (let i=0; i<length.routine;i++){
+/*  for (let i=0; i<length.routine;i++){
 return routine[i];
   }
   console.log(exersiceDog(Bryan, poodle))
+}*/
+const exerciseDog = function(dogName, dogBreed) {
+  return routine.map(action => action(dogName, dogBreed));
 }
