@@ -29,3 +29,10 @@ function throwFrisbee(dogName, dogBreed) {
 function Unleash(dogName, dogBreed) {
   console.log("Unleash ${dogName} the ${dogBreed}");
 }
+
+let routine =[]
+function exersiceDog (dogName,dogBreed){
+  for (let i=0; i<length.routine,i++){
+    
+  }
+}
