@@ -42,4 +42,5 @@ function exersiceDog (dogName,dogBreed){
   for (let i=0; i<length.routine;i++){
 return routine[i];
   }
+  console.log(exersiceDog(Bryan, poodle))
 }
