@@ -13,3 +13,7 @@ function throwFrisbee() {
 function Unleash() {
   console.log("Unleash Byron the poodle");
 }
+
+function wakeDog(dogName, dogBreed) {
+  console.log("Wake ${dogName} the ${dogBreed}");
+}
