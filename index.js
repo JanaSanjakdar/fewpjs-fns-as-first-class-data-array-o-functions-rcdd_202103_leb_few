@@ -35,7 +35,7 @@ function Unleash(dogName, dogBreed) {
   return "Unleash ${dogName} the ${dogBreed}";
 }
 
-const routine =[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
+let routine =[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
 //function exersiceDog (dogName,dogBreed){
   //let dogName="Byron";
   //let dogBreed="poodle";
