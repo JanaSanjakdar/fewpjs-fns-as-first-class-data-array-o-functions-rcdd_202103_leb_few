@@ -14,7 +14,7 @@ function Unleash() {
   console.log("Unleash Byron the poodle");
 }*/
 //let dog= [dogName, dogBreed];
-function wakeDog(dogName, dogBreed) {
+/*function wakeDog(dogName, dogBreed) {
 //  console.log("Wake ${dogName} the ${dogBreed}");
   return "Wake ${dogName} the ${dogBreed}";
 }
@@ -44,6 +44,29 @@ return routine[i];
   }
   console.log(exersiceDog(Bryan, poodle))
 }*/
-const exerciseDog = function(dogName, dogBreed) {
+/*const exerciseDog = function(dogName, dogBreed) {
   return routine.map(action => action(dogName, dogBreed));
+}*/
+
+function wakeDog(dogName, dogBreed) {
+    return (`Wake ${dogName} the ${dogBreed}`);
+}
+function leashDog(dogName, dogBreed) {
+  return (`Leash ${dogName} the ${dogBreed}`);
+}
+function walkToPark(dogName, dogBreed) {
+  return (`Walk to the park with ${dogName} the ${dogBreed}`);
+}
+function throwFrisbee(dogName, dogBreed) {
+  return (`Throw the frisbee for ${dogName} the ${dogBreed}`);
+}
+function walkHome(dogName, dogBreed) {
+  return (`Walk home with ${dogName} the ${dogBreed}`);
+}
+function unleashDog(dogName, dogBreed) {
+  return (`Unleash ${dogName} the ${dogBreed}`);
+}
+var routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
+function exerciseDog(dog, breed) {
+  return routine.map(fn => fn(dog, breed))
 }
