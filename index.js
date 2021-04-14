@@ -10,9 +10,7 @@ function walkToPark() {
 function throwFrisbee() {
   console.log("Throw thr frisbee for Byron the poodle");
 }
-function walkHome() {
-  console.log("Walk home with Byron the poodle");
+function Unleash() {
+  console.log("Unleash Byron the poodle");
 }
-function wakeDog() {
-  console.log("Wake Byron the poodle");
-}
+
