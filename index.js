@@ -14,7 +14,7 @@ function Unleash() {
   console.log("Unleash Byron the poodle");
 }*/
 
-function wakeDog(dogName, dogBreed) {
+function wakeDog(Xerox, Border Collie) {
   console.log("Wake ${dogName} the ${dogBreed}");
   return "Wake ${dogName} the ${dogBreed}";
 }
