@@ -30,7 +30,7 @@ function Unleash(dogName, dogBreed) {
   console.log("Unleash ${dogName} the ${dogBreed}");
 }
 
-let routine =[wakeDog(),leashDog(),walkToPark(),throwFrisbee(),walkHome(),unleashDog()]
+let routine =[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
 function exersiceDog (Byron,poodle){
   //let dogName="Byron";
   //let dogBreed="poodle";
